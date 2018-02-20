@@ -63,7 +63,7 @@ public class MainActivity extends AppCompatActivity {
         if (itemThatWasClickedId == R.id.action_search) {
             Context context = MainActivity.this;
             String textToShow = "Search clicked";
-            Toast.makeText(context, textToShow, Toast.LENGTH_SHORT).show();
+            Toast.makeText(context, textToShow, Toast.LENGTH_LONG).show();
             return true;
         }
         return super.onOptionsItemSelected(item);
